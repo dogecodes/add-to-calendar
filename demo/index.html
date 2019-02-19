@@ -7,7 +7,12 @@
 
 <script type="text/javascript" src="http://localhost:8080/dist/add-to-calendar.js"></script>
 <script type="text/javascript">
-    
+    var event = new window.calendar.Event();
+    var calendar = new window.calendar.Calendar(event);
+
+    var links = calendar.links();
+
+    console.log(links);
 </script>
 </body>
 </html>
