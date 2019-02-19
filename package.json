@@ -1,0 +1,44 @@
+{
+  "name": "add-to-calendar",
+  "version": "0.0.1",
+  "description": "Simple and developer friendly add to calendar button and links",
+  "main": "src/index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "dev": "./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dogecodes/add-to-calendar.git"
+  },
+  "keywords": [
+    "add-to-calendar",
+    "calendar",
+    "google",
+    "calendar.",
+    "apple",
+    "calendar",
+    "yahoo",
+    "calendar",
+    "outlook",
+    "calendar"
+  ],
+  "author": "Roman Sevastyanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dogecodes/add-to-calendar/issues"
+  },
+  "homepage": "https://github.com/dogecodes/add-to-calendar#readme"
+}
